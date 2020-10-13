@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&display=swap");
+
+.LEARNING-MADE-EASY- {
+  width: 500px;
+  height: 90px;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: 0.89px;
+  color: #000000;
+  padding-top: 214px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+.Tabella-helps-you-le {
+  width: 545px;
+  height: 135px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  color: #3f3e3e;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+.Rectangle-landing {
+  width: 255px;
+  height: 47px;
+  border-radius: 4px;
+  background-color: #000000;
+  float: left;
+  margin-left: 80px;
+  margin-top: 33px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.Updated-Illustration {
+  background-image: url(../Assests/group-3.svg);
+  display: flex;
+  width: 1440px;
+  height: 799px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.Group-15 {
+  margin: 216px 39px 97px 130px;
+  width: 646px;
+  height: 486px;
+  object-fit: contain;
+}
