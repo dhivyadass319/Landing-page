@@ -46,14 +46,11 @@
 }
 
 .Updated-Illustration {
-  background-image: url(../Assests/group-3.svg);
-  display: flex;
+  /* background-image: url(../Assests/group-3.svg); */
   width: 1440px;
   height: 799px;
   background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  display: flex;
 }
 
 .Group-15 {

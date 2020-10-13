@@ -1,13 +1,26 @@
 import React from "react";
 import "./Landing.css";
 import { Button } from "@material-ui/core";
-
+import backgroundImage from '../Assests/group-3.svg';
 import landingImage from "../Assests/group-15.png";
 
 const Landing = () => {
+
+const backgroundStyle = {
+    width: '800px',
+    height: '800px',
+    objectFit: 'fill',
+    background: `url(${backgroundImage})`,
+    backgroundRepeat: 'no-repeat',
+    float: 'right'
+};
+
+
+
+
   return (
-    <div className="Updated-Illustration">
-      <div className="landingContent">
+    <div className="Updated-Illustration" >
+      <div className="landingContent" >
         <h1 className="LEARNING-MADE-EASY-">LEARNING MADE EASY & ENGAGING</h1>
         <p className="Tabella-helps-you-le">
           Tabella helps you learn more effectively than lectures through
@@ -19,9 +32,11 @@ const Landing = () => {
           Try Tabella for free
         </Button>
       </div>
-      <div>
-        <img class="Group-15" src={landingImage} alt="landingImage" />
+      <div style = {backgroundStyle}>
+      <img class="Group-15" src={landingImage} alt="landingImage" />
       </div>
+        
+      
     </div>
   );
 };
